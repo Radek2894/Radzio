@@ -7,6 +7,6 @@ namespace Radzio
 {
     public interface IWeatherForecastService
     {
-        IEnumerable<WeatherForecastService> Get(); 
+        IEnumerable<WeatherForecastService> Get(int count, int minTemperature, int maxTemperature); 
     }
 }
